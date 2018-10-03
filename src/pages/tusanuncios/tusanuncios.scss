@@ -1,25 +1,19 @@
-page-home {
-    .fa-icons-general {
-        display: inline-block;
-        font: normal normal normal 14px/1 "Font Awesome 5 Free";
-        font-size: inherit;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        transform: translate(0, 0);
+page-tusanuncios {
+    ion-content{
+        padding-top: 80px;
     }
-
-    .ion-ios-fa-search::before,
-    .ion-ios-fa-search-outline::before,
-    .ion-md-fa-search::before {
-        @extend .fa-icons-general;
-        content: "\f002";
+    .titulop{
+        font-family: roboto;
+        color: #00b9e7;
+        font-size: 1.5em;
     }
-    .ion-ios-fa-plus-circle::before,
-    .ion-ios-fa-plus-circle-outline::before,
-    .ion-md-fa-plus-circle::before {
-        @extend .fa-icons-general;
-        content: "\f055";
+    .strella{
+        color: #00b9e7;
+        font-size: 1.5em;
+    }
+    .derecha{
+        float: right;
+        text-align: right;
     }
     .blanco{
         color: white;
@@ -58,17 +52,37 @@ page-home {
         color: #00b9e7;
         font-family: roboto;
         font-size: 1.3em;
+        font-weight: 600;
+        line-height: 3px;
+    }
+    .texto{
         font-weight: 500;
+        font-family: roboto;
+        font-size: 1.2em;
+        font-weight: 600;
+        line-height: 3px;
+    }
+    .titulo2{
+        color: gray;
+        font-family: roboto;
+        font-size: 1.2em;
+        font-weight: 600;
+        line-height: 3px;
+        line-height: 2em;
     }
     .gris{
         color: gray;
         font-weight: 400;
         font-size: 1.1em;
+        
+    }
+    .line{
+        line-height: 2em;
     }
     .azulb{
         color: #00b9e7;
         
         font-size:1.5em; 
     }
-    
+
 }

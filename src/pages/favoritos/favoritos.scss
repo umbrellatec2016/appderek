@@ -1,4 +1,20 @@
-page-home {
+page-favoritos {
+    ion-content{
+        padding-top: 80px;
+    }
+    .titulop{
+        font-family: roboto;
+        color: #00b9e7;
+        font-size: 1.5em;
+    }
+    .strella{
+        color: #00b9e7;
+        font-size: 1.5em;
+    }
+    .derecha{
+        float: right;
+        text-align: right;
+    }
     .fa-icons-general {
         display: inline-block;
         font: normal normal normal 14px/1 "Font Awesome 5 Free";
@@ -70,5 +86,4 @@ page-home {
         
         font-size:1.5em; 
     }
-    
 }

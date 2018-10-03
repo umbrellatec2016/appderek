@@ -1,25 +1,29 @@
-page-home {
-    .fa-icons-general {
+page-listamensajes {
+    ion-content{
+        padding-top: 80px;
+    }
+    .titulop{
+        font-family: roboto;
+        color: #00b9e7;
+        font-size: 1.5em;
+    }
+    .strella{
+        color: #00b9e7;
+        font-size: 1.5em;
+    }
+    .derecha{
+        float: right;
+        text-align: right;
+    }
+    .blanco{
+        color: white;
+        float: left;
         display: inline-block;
-        font: normal normal normal 14px/1 "Font Awesome 5 Free";
-        font-size: inherit;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        transform: translate(0, 0);
     }
-
-    .ion-ios-fa-search::before,
-    .ion-ios-fa-search-outline::before,
-    .ion-md-fa-search::before {
-        @extend .fa-icons-general;
-        content: "\f002";
-    }
-    .ion-ios-fa-plus-circle::before,
-    .ion-ios-fa-plus-circle-outline::before,
-    .ion-md-fa-plus-circle::before {
-        @extend .fa-icons-general;
-        content: "\f055";
+    .blancob{
+        color: white;
+        float: right;
+        display: inline-block;
     }
     .blanco{
         color: white;
@@ -41,6 +45,7 @@ page-home {
     .barra{
         background: rgba(255, 255, 255, 0.49);
         width: 100%;
+        margin-top:10px;
     }
     .azul{
         color: #00b9e7;
@@ -61,7 +66,7 @@ page-home {
         font-weight: 500;
     }
     .gris{
-        color: gray;
+        color: gray !important;
         font-weight: 400;
         font-size: 1.1em;
     }
@@ -69,6 +74,10 @@ page-home {
         color: #00b9e7;
         
         font-size:1.5em; 
+    }
+    ion-col{
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
     
 }

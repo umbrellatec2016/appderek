@@ -17,6 +17,8 @@
     .ion-md-fa-home::before {
         @extend .fa-icons-general;
         content: "\f015";
+        color: white;
+        font-weight: 800;
     }
 
     .ion-ios-fa-search-plus::before,
@@ -24,6 +26,8 @@
     .ion-md-fa-search-plus::before {
         @extend .fa-icons-general;
         content: "\f00e";
+        color: white;
+        font-weight: 800;
     }
     .ion-ios-fa-clipboard::before,
     .ion-ios-fa-clipboard-outline::before,
@@ -31,4 +35,158 @@
     {
         @extend .fa-icons-general;
         content: "\f328";
+        color: white;
+        font-weight: 900 !important;
+        
+    }
+    .ion-ios-fa-sign-out-alt::before,
+    .ion-ios-fa-sign-out-alt::before,
+    .ion-md-fa-sign-out-alt::before
+    {
+        @extend .fa-icons-general;
+        content: "\f2f5";
+        color: white;
+       
+    }
+    .ion-ios-fa-star::before,
+    .ion-ios-fa-star-outline::before,
+    .ion-md-fa-star::before
+    {
+        @extend .fa-icons-general;
+        content: "\f005";
+        font-weight: 900 !important;
+        color: white;
+    }
+    
+    .ion-ios-fa-comment::before,
+    .ion-ios-fa-comment-outline::before,
+    .ion-md-fa-comment::before
+    {
+        @extend .fa-icons-general;
+        content: "\f075";
+        font-weight: 900 !important;
+        color: white;
+    }
+    .ion-ios-fa-user-tie::before,
+    .ion-ios-fa-user-tie-outline::before,
+    .ion-md-fa-user-tie::before
+    {
+        @extend .fa-icons-general;
+        content: "\f508";
+        color: white;
+        
+    }
+    .tabs-md .tabbar{
+        background-color: #00b9e7 !important;
+        color: white;
+    }
+    ion-tabs{
+        color: white;
+        font-family: roboto;
+        background-color: #00b9e7 !important;
+        font-weight: 800;
+        
+    }
+    .tabs .tabbar {
+        background-color: #00b9e7;
+    }
+    .tab-button-text{
+        color: white;
+        font-size:0.9em !important;
+        font-weight: 700;
+    }
+    .tab-button-icon{
+        color:white !important;
+    }
+    .fa-icons-general {
+        display: inline-block;
+        font: normal normal normal 14px/1 "Font Awesome 5 Free";
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        transform: translate(0, 0);
+    }
+
+    .ion-ios-fa-search::before,
+    .ion-ios-fa-search-outline::before,
+    .ion-md-fa-search::before {
+        @extend .fa-icons-general;
+        content: "\f002";
+        font-weight: 800;
+    }
+    .ion-ios-fa-plus-circle::before,
+    .ion-ios-fa-plus-circle-outline::before,
+    .ion-md-fa-plus-circle::before {
+        @extend .fa-icons-general;
+        content: "\f055";
+        font-weight: 800;
+    }
+    .ion-ios-fa-user::before,
+    .ion-ios-fa-useroutline::before,
+    .ion-md-fa-user::before {
+        @extend .fa-icons-general;
+        content: "\f007";
+        font-weight: 800;
+    }
+    .blanco{
+        color: white;
+        float: left;
+        display: inline-block;
+    }
+    .blancob{
+        color: white;
+        float: right;
+        display: inline-block;
+    }
+    .toolbar-background
+    {
+        background-color: #00b9e7;
+    }
+    ion-content{
+        background-color: #eaeaea !important;
+    }
+    .barra{
+        background: rgba(255, 255, 255, 0.49);
+        width: 100%;
+    }
+    .azul{
+        color: #00b9e7;
+        
+        font-size:1.2em; 
+    }
+    .count-comments{
+        margin-left: 23px;
+        position: absolute;
+        font-family: roboto;
+        color:#00b9e7;
+        font-weight: 500;
+    }
+    .titulo{
+        color: #00b9e7;
+        font-family: roboto;
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+    .gris{
+        color: gray;
+        font-weight: 400;
+        font-size: 1.1em;
+    }
+    .azulb{
+        color: #00b9e7;
+        
+        font-size:1.5em; 
+    }
+    ion-title .toolbar-title-md
+    {
+        //posicion logo
+        text-align: center !important;
+        img{
+            position: absolute;
+            width: 150px;
+            z-index: 9999;
+            top: -20px !important;
+            left:43%;
+        }
     }
