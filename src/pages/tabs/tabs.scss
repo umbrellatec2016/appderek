@@ -123,7 +123,7 @@
         font-weight: 800;
     }
     .ion-ios-fa-user::before,
-    .ion-ios-fa-useroutline::before,
+    .ion-ios-fa-user-outline::before,
     .ion-md-fa-user::before {
         @extend .fa-icons-general;
         content: "\f007";
@@ -131,13 +131,16 @@
     }
     .blanco{
         color: white;
-        float: left;
-        display: inline-block;
+        /*float: left;*/
+       
+        display: flex;
+        flex-direction: row;
     }
     .blancob{
         color: white;
-        float: right;
-        display: inline-block;
+        
+        display: flex;
+        flex-direction: row;
     }
     .toolbar-background
     {
@@ -181,12 +184,26 @@
     ion-title .toolbar-title-md
     {
         //posicion logo
+        display: flex;
         text-align: center !important;
+        height: 90px;
+        justify-content: space-between;
         img{
-            position: absolute;
+            position: relative;
+            align-items: center;
+            width: auto;
             width: 150px;
             z-index: 9999;
-            top: -20px !important;
-            left:43%;
+            bottom: 0px !important;
+            display: flex;
+           /* left:43%;*/
         }
+    }
+   
+    .tabs-md .tab-button[aria-selected=true]
+    {
+        background:#ddd;
+    }
+    .tabs-ios .tab-button[aria-selected=true]{
+        background:#ddd;
     }

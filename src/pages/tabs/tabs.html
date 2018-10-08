@@ -1,14 +1,26 @@
 <ion-header >
   <ion-navbar hideBackButton='true'>
-    <ion-title><img src='/assets/imgs/work.png' /><i class="fas fa-search blanco"></i>
+    <ion-title ><i class="fas fa-search blanco"></i><img src='/assets/imgs/work.png' />
     <i class="fas fa-plus-circle blancob"></i></ion-title>
   </ion-navbar>
 </ion-header>
 <div style="clear: both;"></div>
-<ion-tabs>
-  <ion-tab [root]="tab1Root" tabTitle="Tús post" tabIcon="fa-clipboard"></ion-tab>
-  <ion-tab [root]="tab2Root" tabTitle="Tús Favoritos" tabIcon="fa-star"></ion-tab>
-  <ion-tab [root]="tab3Root" tabTitle="Tús Anuncios" tabIcon="fa-clipboard"></ion-tab>
-  <ion-tab [root]="tab4Root" tabTitle="Tús Mensajes" tabIcon="fa-comment"></ion-tab>
-  <ion-tab [root]="tab5Root" tabTitle="Tú perfil" tabIcon="fa-user"></ion-tab>
+<ion-tabs #tabs (ionChange)="tabChange()">
+  <ion-slides (ionSlideWillChange)="slideChange()">
+    <ion-slide>
+      <ion-tab [root]="tab1Root" tabTitle="Tús post" tabIcon="fa-clipboard"></ion-tab>
+    </ion-slide>
+    <ion-slide>
+      <ion-tab [root]="tab2Root" tabTitle="Tús Favoritos" tabIcon="fa-star"></ion-tab>
+    </ion-slide>
+    <ion-slide>
+      <ion-tab [root]="tab3Root" tabTitle="Tús Anuncios" tabIcon="fa-clipboard"></ion-tab>
+    </ion-slide>
+    <ion-slide>
+      <ion-tab [root]="tab4Root" tabTitle="Tús Mensajes" tabIcon="fa-comment"></ion-tab>
+    </ion-slide>
+    <ion-slide>
+      <ion-tab [root]="tab5Root" tabTitle="Tú perfil" tabIcon="fa-user"></ion-tab>
+    </ion-slide>
+</ion-slides>
 </ion-tabs>

@@ -1,6 +1,7 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+import {NativePageTransitions,NativeTransitionOptions} from '@ionic-native/native-page-transitions';
 import { MyApp } from './app.component';
 import { WelcomePage } from '../pages/welcome/welcome';
 import { LoginPage } from '../pages/login/login';
@@ -55,6 +56,7 @@ import {ProfilePage} from '../pages/profile/profile';
   providers: [
     StatusBar,
     SplashScreen,
+    NativePageTransitions,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     AuthServiceProvider
   ]

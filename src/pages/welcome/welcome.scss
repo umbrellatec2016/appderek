@@ -18,11 +18,16 @@ page-welcome {
     {
         color: white !important;
         text-align: center !important;
+        justify-content: center;
+        
+       // display: flex;
         img{
             
-            width: 150px;
+            //align-items: center;
+            
+            height: 100%;
             z-index: 9999;
-            top: -30px;
+          // text-align:center;
         }
     }
     
